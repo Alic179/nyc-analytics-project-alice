@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: nyc_homework_raw_data
+  - name: raw
     database: yihongcui-cis-baruch
     schema: nyc_homework_raw_data
     tables:
