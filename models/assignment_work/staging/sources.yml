@@ -5,5 +5,5 @@ sources:
     database: yihongcui-cis-baruch
     schema: nyc_homework_raw_data
     tables:
-      - name: source_311service_requests_subset
+      - name: source_service_requests_homework
       - name: source_nyc_dob_job_apps

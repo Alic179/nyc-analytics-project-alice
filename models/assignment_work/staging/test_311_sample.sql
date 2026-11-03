@@ -4,5 +4,5 @@ SELECT
     created_date,
     complaint_type,
     borough
-FROM {{ source('raw', 'source_311service_requests_subset') }}
+FROM {{ source('raw', 'source_service_requests_homework') }}
 LIMIT 10
