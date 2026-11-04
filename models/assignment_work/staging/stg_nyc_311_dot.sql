@@ -1,6 +1,3 @@
-Don’t forget that you’ll need to update the file where it says SOURCE-TABLE-NAME-HERE to refer to YOUR data table for raw NYC 311 DOT data.
-
-stg_nyc_311_dot.sql 
 -- Clean and standardize 311 DOT service request data
 -- One row per service request
 
@@ -96,6 +93,3 @@ cleaned AS (
 
 SELECT * FROM cleaned
 -- All should be part of this table after running: stg_nyc_311_dot
-
-
-
