@@ -6,4 +6,4 @@ sources:
     schema: nyc_homework_raw_data
     tables:
       - name: source_service_requests_homework
-      - name: source_nyc_dob_job_apps
+      - name: source_dob_now_job_filings
